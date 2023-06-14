@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
 *, ::after, ::before {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: Poppins, sans-serif;
 }
 
 :root {
@@ -25,7 +28,6 @@
 }
 
 html {
-	font-family: Poppins, sans-serif;
 	font-size: 62.5%;
 }
 
@@ -38,7 +40,7 @@ body {
 	height: 100vh;
 	padding: 60px 0;
 	background: var(--main-bg-color);
-	overflow: scroll;
+	overflow: auto;
 }
 
 .container {
@@ -86,7 +88,6 @@ body {
 }
 
 .cards__item {
-	/* display: flex; */
 	margin: 30px 15px;
 	padding: 25px;
 	border-radius: 6px;
@@ -121,7 +122,6 @@ body {
 }
 
 /** ================== Media ==================== */
-
 /* Tablets */
 @media (max-width: 768px) {
 	html {
